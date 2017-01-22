@@ -223,6 +223,9 @@ An import screen for Gluster Storage Domain:
 An import screen for Fibre Channel Storage Domain:
 ![](FibreChannel.png "fig:FibreChannel.png")
 
+Test:
+![](pic.png "fig:pic.png")
+
 An import screen for iSCSI Storage Domain:
 ![](Iscsi.jpeg "fig:Iscsi.jpeg")
 
