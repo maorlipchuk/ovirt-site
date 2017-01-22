@@ -385,7 +385,7 @@ For example, to get all the unregistered VMs in the Storage Domain `fa38172b-baa
 
 http://localhost:8080/ovirt-engine/api/storagedomains/fa38172b-baae-4ca3-b949-95619c01ca31/vms;unregistered
 
-![](UnregisteredVms.png "fig:UnregisteredVms.png")
+![](/images/wiki/FibreChannel.png)
 
 ### Register VM to a new cluster
 
@@ -401,13 +401,15 @@ Content-type: application/xml
 </action>
 ```
 
-![](UnregisterVM1.png "fig:UnregisterVM1.png")
+![](/images/wiki/pic.png)
 
 ### Get all the unregistered disks in the Storage Domain
 
 If the user want to get a list of all the floating disks in the storage domain they should use the following URL: `http://localhost:8080/ovirt-engine/api/storagedomains/60cec75d-f01d-44a0-9c75-8b415547bc3d/disks;unregistered`
 
- ![](ListUnregisteredDisk.png "fig:ListUnregisteredDisk.png")
+
+![](/images/wiki/FibreChannel.png)
+
 
 ### Register an unregistered disk
 
