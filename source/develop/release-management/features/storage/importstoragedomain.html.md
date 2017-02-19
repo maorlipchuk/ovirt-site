@@ -255,6 +255,23 @@ Content-Type: application/xml
 </action>
 ```
 
+#### login into the iSCSI target
+
+The iscsilogin action enables a host to login to an iSCSI target. Logging into a target makes the contained LUNs available in the host_storage collection
+
+```xml
+POST /api/hosts/2ab5e1da-b726-4274-bbf7-0a42b16a0fc3/iscsilogin HTTP/1.1
+Accept: application/xml
+Content-Type: application/xml
+
+<action>
+    <iscsi>
+        <address>mysan.example.com</address>
+         <target>iqn.2009-08.com.example:mysan.foobar</target>
+    </iscsi>
+</action>
+```
+
 #### Get a candidates Storage Domains list to be imported
 
 After the iscsilogin operation, the host is already connected to the targets in the iSCSI and we can fetch the Storage Domains which are candidates to be imported.
